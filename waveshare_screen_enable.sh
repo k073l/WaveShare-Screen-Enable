@@ -28,6 +28,9 @@ echo "If not cancel (Ctrl+C) and go install drivers"
 echo "Wait 5 sec"
 sleep 5
 
+sudo apt-get install libbsd-dev -y
+sudo apt-get install cmake -y
+
 git clone git://github.com/AndrewFromMelbourne/raspi2fb.git
 cd raspi2fb
 mkdir build
