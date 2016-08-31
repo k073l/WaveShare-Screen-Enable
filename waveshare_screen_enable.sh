@@ -1,4 +1,4 @@
-﻿#!/usr/bin/bash
+#!/usr/bin/bash
 
 if [ "$EUID" -ne 0 ]
   then echo "Please run as root, just for sure"
@@ -9,7 +9,7 @@ echo "******************"
 echo "*WaveShare enable*"
 echo "******************"
 
-#written by k073l and helpers from StackExchange
+#written by k073l and Varad A G from raspberrypi.stackexchange.com
 
 echo "First make sure you have WaveShare drivers installed and some free space."
 echo "For sure install on clean system with drivers"
