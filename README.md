@@ -1,6 +1,8 @@
 # WaveShare-Screen-Enable
 Use your WaveShare Raspberry Pi LCD in ex. RetroPie
 
-Usage:
-1. Install Waveshare official drivers
-2. 
+Instal Waveshare official drivers for your LCD screen, then:
+
+wget https://raw.githubusercontent.com/k073l/WaveShare-Screen-Enable/master/waveshare_screen_enable.sh
+sudo ./waveshare_screen_enable.sh
+
