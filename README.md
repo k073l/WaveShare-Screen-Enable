@@ -7,3 +7,4 @@ wget https://raw.githubusercontent.com/k073l/WaveShare-Screen-Enable/master/wave
 
 sudo ./waveshare_screen_enable.sh
 
+Don't forget to make it executable: chomd +x waveshare_screen_enable.sh
