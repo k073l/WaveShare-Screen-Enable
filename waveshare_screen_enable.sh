@@ -9,7 +9,7 @@ echo "******************"
 echo "*WaveShare enable*"
 echo "******************"
 
-#written by k073l and Varad A G from raspberrypi.stackexchange.com
+#script written by k073l  Varad A G from raspberrypi.stackexchange.com helped with system recognition
 
 echo "First make sure you have WaveShare drivers installed and some free space."
 echo "For sure install on clean system with drivers"
@@ -46,14 +46,14 @@ then
    sudo systemctl daemon-reload
    sudo systemctl enable raspi2fb@1.service
    sudo systemctl start raspi2fb@1
-elif [ `echo $debian_version|grep -c "wheezy"` == 1 ] 
+elif [ `echo $debian_version|grep -c "wheezy"` == 1 ]
 then
    sudo make install
    sudo cp ../raspi2fb.init.d /etc/init.d/raspi2fb
    sudo update-rc.d raspi2fb defaults
    sudo service raspi2fb start
 else
-   echo "Script checked your system and it's not Raspbian Wheezy or Jessie. Open text editor and try to write it by yourself"
-fi 
+   echo "Script checked your system and it's not Raspbian Wheezy or Jessie. Try to open this script with your favorite editor and copy commands to terminal."
+fi
 
 echo "It's done. You should see your screen working."
